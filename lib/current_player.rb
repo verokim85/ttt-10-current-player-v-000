@@ -1,10 +1,18 @@
 def turn_count(board)
   counter = 0
-  if counter <= 9
+  board.each do |turns|
+    if turns == "X" || turns == "O"
   counter += 1
-  return board
-end
+  end
+  end
+  return counter
 end
 
-def current_player
+def current_player(board)
+num = turn_count(board)
+  if num % 2 == 0
+  return "X"
+  else
+    return"O"
+  end
 end
