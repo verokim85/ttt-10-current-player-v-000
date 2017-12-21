@@ -4,3 +4,7 @@ board.each do |char|
 counter +=1
 end
 end
+
+
+def current_player(board)
+  
