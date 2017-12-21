@@ -3,8 +3,6 @@ def turn_count(board)
   board.each {char}
     counter +=1
 end
-end
 
 
 def current_player(board)
-  
