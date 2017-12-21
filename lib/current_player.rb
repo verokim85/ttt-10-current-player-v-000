@@ -7,4 +7,7 @@ end
 
 
 def current_player(board)
+  if char % 2 == 0
+    then "O"
+
 end
