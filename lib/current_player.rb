@@ -1,7 +1,7 @@
 def turn_count(board)
-counter = 0
-board.each do |char|
-counter +=1
+  counter = 0
+  board.each {char}
+    counter +=1
 end
 end
 
