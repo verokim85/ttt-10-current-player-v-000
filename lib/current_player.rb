@@ -3,6 +3,7 @@ counter = 0
 board.each do |char|
     counter +=1
   end
+return 
 end
 
 
