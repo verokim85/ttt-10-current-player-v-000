@@ -1,6 +1,6 @@
 def turn_count(board)
 board_amount = board.size
-  counter = 0
+board_count = 0
   board.each do |char|
     counter +=1
   end
