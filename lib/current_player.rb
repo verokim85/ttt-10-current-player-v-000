@@ -10,8 +10,7 @@ end
 
 
 def current_player(board)
-  turn_count(board)
-  if char % 2 == 0
+if turn_count(board) == even
     return "X"
   else
     return "O"
