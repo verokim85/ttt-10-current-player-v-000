@@ -8,6 +8,7 @@ end
 
 def current_player(board)
   if char % 2 == 0
-    then "O"
-
+    return "O"
+  else
+    return "X"
 end
